@@ -59,8 +59,6 @@ export function Form() {
     }
   };
 
-  console.log(formData);
-
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
