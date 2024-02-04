@@ -142,22 +142,6 @@ export function Form() {
         ...errorMessage,
         successful: "You have successfully sign up to Barbar Hub",
       });
-
-      setFormData({
-        fullName: "",
-        phone: "",
-        email: "",
-        password: "",
-        confirmPassword: "",
-        isAgreedToTerms: false,
-      });
-
-      setTimeout(() => {
-        setErrorInput({
-          ...errorMessage,
-          successful: "",
-        });
-      }, 5000);
     } else {
       setErrorInput({
         ...errorMessage,
